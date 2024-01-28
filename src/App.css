@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 157, 11));
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; 
+}
+
+
+
+.profile-container {
+  width: 350px;
+  background-color: brown;
+  border: none;
+  border-radius: 15px;
+}
+
+.profile-pic {
+  margin-top: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.edit-container {
+  width: 300px;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.profile-edit-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.profile-container,
+.edit-container {
+  margin: 10px;
+  transition: margin 0.3s ease-in-out;
+}
+
+.edit-container {
+  order: +1;
+}
